@@ -16,6 +16,30 @@ public class CastTest01_묵시적 {
 		double f2 = f;
 		
 		//byte x = f2;  // 역은 불가
+	
+		// char > int ( 문자가 정수인 int로 자동 변경 가능, 아스키코드 값 )
+		char c = 'A';
+		char n = c;
+		System.out.println(n);  // 65 ( 외우기 )
+		System.out.println(c+1);  // 문자연산이 가능함.
+
+		int x = 'A';
+		
+		char c2 = 'a';
+		char n2 = c2;
+		System.out.println(n2);  // 97 ( 외우기 )
+
+		// 2. 정수형 중에서 int 보다 작은 타입의 연산 결과는 int 로 형변환되어 반환된다.
+		short s = 10;
+		short s2 = 20;
+//		short s3 = s+s2; //에러, 각각은 short지만 연산된 s+s2 결과값은 int임
+		int s4 = s+s2;
+		
+		// 3. 작은 타입과 큰 타입이 연산하면 결과가 큰 타입으로 반환
+		int k = 10;
+		double k2 = 20;
+//		int k3 = k+k2;   // k+k2 타입은 double로 반환
+		double k4 = k + k2;
 	}
 	
 }
