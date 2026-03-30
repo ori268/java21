@@ -40,6 +40,15 @@ public class CastTest01_묵시적 {
 		double k2 = 20;
 //		int k3 = k+k2;   // k+k2 타입은 double로 반환
 		double k4 = k + k2;
+
+		// 4. 문자열 + ( 비 ) 문자열 ----> 문자열로 반환됨
+		System.out.println("hello"+"world");
+		System.out.println("hello"+10);
+		System.out.println("hello"+3.15);
+		System.out.println("hello"+true);
+
+		System.out.println("hello"+10+20+30);
+		System.out.println(10+20+30+"hello");
 	}
 	
 }
