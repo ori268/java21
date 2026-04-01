@@ -1,0 +1,10 @@
+package workshop_04;
+
+public class ArrayTest03 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
