@@ -1,4 +1,4 @@
-package workshop_01.Java21_워크샵01_문제_솔루션;
+
 
 public class MyTest02 {
 

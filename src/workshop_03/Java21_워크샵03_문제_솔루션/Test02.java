@@ -1,4 +1,3 @@
-package workshop_03.Java21_워크샵03_문제_솔루션;
 
 public class Test02 {
 	public static void main(String[] args) {
