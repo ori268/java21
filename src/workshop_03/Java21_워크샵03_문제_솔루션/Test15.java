@@ -1,3 +1,5 @@
+package workshop_03.Java21_워크샵03_문제_솔루션;
+
 import java.util.Scanner;
 
 public class Test15 {

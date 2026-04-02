@@ -1,7 +1,5 @@
 package exam09_class;
 
-
-// 핸들링 클래스
 public class TestCat {
 
 	public static void main(String[] args) {

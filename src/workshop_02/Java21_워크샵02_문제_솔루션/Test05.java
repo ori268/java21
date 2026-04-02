@@ -1,3 +1,5 @@
+package workshop_02.Java21_워크샵02_문제_솔루션;
+
 public class Test05 {
 	public static void main(String[] args) {
 		byte a = 10;

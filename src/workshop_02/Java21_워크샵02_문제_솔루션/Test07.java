@@ -1,3 +1,5 @@
+package workshop_02.Java21_워크샵02_문제_솔루션;
+
 import java.util.Scanner;
 
 public class Test07 {
