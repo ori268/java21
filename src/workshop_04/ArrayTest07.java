@@ -1,10 +1,33 @@
 package workshop_04;
 
+import java.util.Random;
+import java.util.Scanner;
+
 public class ArrayTest07 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		Scanner scan = new Scanner(System.in);
+		Random ran = new Random();
+
+		System.out.println("키의 최댓값을 구합니다.");
+		System.out.println("사람 수 : ");
+		int num = scan.nextInt();
+
+		int[] height = new int[num];
+
+		for (int i = 0; i < height.length; i++) {
+			height[i] = 100 + ran.nextInt(90);
+			System.out.println("사람 " + (i + 1) + " : " + height[i]);
+		}
+
+		int max = height[0];
+		for (int i = 1; i < height.length; i++) {
+			if (height[i] > max) {
+				max = height[i];
+			}
+		}
+		System.out.println("최댓값은 " + max + "입니다.");
 	}
 
 }
