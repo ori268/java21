@@ -15,5 +15,10 @@ public class TestEmployee {
 		System.out.println(m.toString());  // Object의 toString()
 //		exam12_상속5_Object_toString.Manager@6d311334
 //		홍길동	2000	인사  --> toString 재정의한 값
+	
+		String n = "hello";
+		System.out.println(n);
+		System.out.println(n.toString());	
+	
 	}
 }

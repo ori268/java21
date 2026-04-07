@@ -17,7 +17,7 @@ public class StudentTest {
 		int maxWeightIndex = 0;
 		int minWeightIndex = 0;
 		System.out.println("이름 \t 나이 \t 신장 \t 몸무게");
-		for(int i = 0; i < studentArray.length; i++) {
+		for(int i = 0; i < studentArra.length; i++) {
 		System.out.println(studentArray[i].studentInfo());
 		totalAge += studentArray[i].getAge();
 		totalHeight += studentArray[i].getHeight();

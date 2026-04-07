@@ -26,7 +26,7 @@ public class TestEmployee4 {
 		// 참조형
 		method2(new Employee("홍길동", 2000));
 		method2(new Engineer("이순신", 4300, "자바"));
-		method2(new Manager("홍길동", 4000, "관리"));
+		method2(new Manager("유관순", 4000, "관리"));
 
 		// 화장되면
 		method3(10);
