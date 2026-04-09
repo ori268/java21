@@ -16,7 +16,7 @@ public class Test01 {
 		System.out.println(s1.getName() + " 평균: " + s1.getAvg() + " 학점: " + s1.getGrade());
 
 		System.out.println(s2.getName() + " 평균: " + s2.getAvg() + " 학점: " + s2.getGrade());
-		
+
 		System.out.println(s3.getName() + " 평균: " + s3.getAvg() + " 학점: " + s3.getGrade());
 	}
 

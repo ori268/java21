@@ -22,14 +22,16 @@ public class TestMain4 {
 		System.out.println(s);
 
 		// 람다 표현식 ( => ( 자바스크립트 ), -> ( 자바 ) )
-		Flyer4 f2 = () -> {return "hello";};
-		String s2= f2.fly();
+		Flyer4 f2 = () -> {
+			return "hello";
+		};
+		String s2 = f2.fly();
 		System.out.println(s);
-		
+
 		Flyer4 f3 = () -> "hello";
-		String s3= f3.fly();
+		String s3 = f3.fly();
 		System.out.println(s);
-	
+
 	} // end main
 
 }

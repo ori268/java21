@@ -1,13 +1,13 @@
 package exam09_class04_실습;
 
 public class Student {
-	
+
 	String name;
 	int age;
 	String address;
-	
+
 	public Student() {
-	
+
 	}
 
 	public Student(String name, int age, String address) {
@@ -21,5 +21,5 @@ public class Student {
 //		this.name = name;
 //		this.age = age;
 	}
-	
+
 }

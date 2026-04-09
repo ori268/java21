@@ -2,39 +2,39 @@ package exam03_데이터형변환;
 
 public class CastTest01_묵시적 {
 
-	public static void main (String[] args) {
-		
+	public static void main(String[] args) {
+
 		// 1. 수치형
 		// byte > short > int > long > float > double ( 작은 타입이 큰 타입으로 자동변경 가능 )
-		
+
 		byte b = 10;
-		short b2 = b;  // byte 타입의 b가 short 타입으로 변경됨
+		short b2 = b; // byte 타입의 b가 short 타입으로 변경됨
 		int b3 = b2;
 		long b4 = b3;
-		
+
 		float f = b4;
 		double f2 = f;
-		
-		//byte x = f2;  // 역은 불가
-	
+
+		// byte x = f2; // 역은 불가
+
 		// char > int ( 문자가 정수인 int로 자동 변경 가능, 아스키코드 값 )
 		char c = 'A';
 		char n = c;
-		System.out.println(n);  // 65 ( 외우기 )
-		System.out.println(c+1);  // 문자연산이 가능함.
+		System.out.println(n); // 65 ( 외우기 )
+		System.out.println(c + 1); // 문자연산이 가능함.
 
 		int x = 'A';
-		
+
 		char c2 = 'a';
 		char n2 = c2;
-		System.out.println(n2);  // 97 ( 외우기 )
+		System.out.println(n2); // 97 ( 외우기 )
 
 		// 2. 정수형 중에서 int 보다 작은 타입의 연산 결과는 int 로 형변환되어 반환된다.
 		short s = 10;
 		short s2 = 20;
 //		short s3 = s+s2; //에러, 각각은 short지만 연산된 s+s2 결과값은 int임
-		int s4 = s+s2;
-		
+		int s4 = s + s2;
+
 		// 3. 작은 타입과 큰 타입이 연산하면 결과가 큰 타입으로 반환
 		int k = 10;
 		double k2 = 20;
@@ -42,13 +42,13 @@ public class CastTest01_묵시적 {
 		double k4 = k + k2;
 
 		// 4. 문자열 + ( 비 ) 문자열 ----> 문자열로 반환됨
-		System.out.println("hello"+"world");
-		System.out.println("hello"+10);
-		System.out.println("hello"+3.15);
-		System.out.println("hello"+true);
+		System.out.println("hello" + "world");
+		System.out.println("hello" + 10);
+		System.out.println("hello" + 3.15);
+		System.out.println("hello" + true);
 
-		System.out.println("hello"+10+20+30);
-		System.out.println(10+20+30+"hello");
+		System.out.println("hello" + 10 + 20 + 30);
+		System.out.println(10 + 20 + 30 + "hello");
 	}
-	
+
 }

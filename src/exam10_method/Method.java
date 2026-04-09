@@ -25,10 +25,19 @@ public class Method {
 	}
 
 	// 오버로딩 메서드
-	public void a() {}
+	public void a() {
+	}
+
 //	public int a() {}
-	public void a(int n) {}
-	public void a(String s) {}
-	public void a(int n, String s) {}
-	public void a(String s, int n) {}
+	public void a(int n) {
+	}
+
+	public void a(String s) {
+	}
+
+	public void a(int n, String s) {
+	}
+
+	public void a(String s, int n) {
+	}
 }

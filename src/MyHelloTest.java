@@ -23,7 +23,6 @@ public class MyHelloTest {
 		MyHello h5 = new MyHello();
 		h5.method();
 
-		
 	}
 
 }

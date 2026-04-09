@@ -3,21 +3,21 @@ package exam_06_제어문;
 public class Statement02_ifelse문 {
 
 	public static void main(String[] args) {
-		
+
 		System.out.println("문장1");
 
-		if(true) {
+		if (true) {
 			System.out.println("문장2");
 			System.out.println("문장2-1");
 		} else {
 			System.out.println("문장3");
 			System.out.println("문장3-1");
 		}
-		
+
 		System.out.println("문장4");
-		
+
 		System.out.println("문장 end");
-		
+
 	}
 
 }

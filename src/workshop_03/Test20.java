@@ -47,8 +47,8 @@ public class Test20 {
 			System.out.println("지급될 급여 : " + (sum + num2));
 		}
 
-		/* 강사님 답
-		 * import java.util.Scanner;
+		/*
+		 * 강사님 답 import java.util.Scanner;
 		 * 
 		 * public class Test20 { public static void main(String[] args) {
 		 * 

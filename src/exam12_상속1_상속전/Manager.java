@@ -18,7 +18,7 @@ public class Manager {
 
 	// getter
 	// setter
-	
+
 	public String getManager() {
 		return name + '\t' + salary + "\t" + depart;
 	}

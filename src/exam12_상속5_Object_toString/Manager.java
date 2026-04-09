@@ -21,14 +21,13 @@ public class Manager extends Employee {
 		this.depart = depart;
 	}
 
-
 	// 오버라이딩 - generate 방법 이용
 	@Override
 	public String getEmployee() {
 		return super.getEmployee() + "\t" + depart; // super를 지우면 this가 생략된걸로 판단되서 무한루프가 걸림.
 //		return name + '\t' + salary + "\t" + depart;
 	}
-	
+
 	// Object의 toString 재정의
 	@Override
 	public String toString() {

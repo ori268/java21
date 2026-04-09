@@ -6,7 +6,7 @@ public class Student {
 	private int age;
 	private int height;
 	private int weight;
-	
+
 	public Student() {
 	}
 
@@ -48,6 +48,5 @@ public class Student {
 	public void setWeight(int weight) {
 		this.weight = weight;
 	}
-	
-	
+
 }

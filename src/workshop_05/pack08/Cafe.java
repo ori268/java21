@@ -2,10 +2,11 @@ package pack08;
 
 public class Cafe {
 
-	private Coffee [] coffeeList = new Coffee[3];
+	private Coffee[] coffeeList = new Coffee[3];
 	private int index;
-	
-	public Cafe() {}
+
+	public Cafe() {
+	}
 
 	public int totalPrice() {
 		int total = 0;
@@ -14,19 +15,18 @@ public class Cafe {
 		}
 		return total;
 	}
-	
+
 	public void setCoffee(Coffee coffee) {
-		if(index == coffeeList.length) {
+		if (index == coffeeList.length) {
 			System.out.println("더 이상 저장할 수 없습니다");
 		} else {
 			coffeeList[index] = coffee;
 			index++;
 		}
 	}
-	
+
 	public Coffee[] getCoffeeList() {
 		return coffeeList;
 	}
-	
-	
+
 }

@@ -7,7 +7,7 @@ public class Manager extends Employee {
 	String depart; // 관리부서
 
 	public Manager() {
-	//	super(); 자동으로 부모의 기본 생성자를 호출함.
+		// super(); 자동으로 부모의 기본 생성자를 호출함.
 	}
 
 	public Manager(String name, int salary, String depart) {
@@ -20,7 +20,7 @@ public class Manager extends Employee {
 
 	// getter
 	// setter
-	
+
 	public String getManager() {
 		return name + '\t' + salary + "\t" + depart;
 	}

@@ -1,6 +1,6 @@
 package exam14_인터페이스;
 
-public class MyServiceImpl extends MyClass implements MyService, MyService2{
+public class MyServiceImpl extends MyClass implements MyService, MyService2 {
 
 	@Override
 	public void a() {
@@ -14,10 +14,7 @@ public class MyServiceImpl extends MyClass implements MyService, MyService2{
 
 	@Override
 	public void x() {
-		System.out.println("x()");		
+		System.out.println("x()");
 	}
 
-	
-	
-	
 }

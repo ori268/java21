@@ -18,9 +18,10 @@ public class ExceptionTest4 {
 			System.out.println(s.length());
 
 		} catch (ArithmeticException e) { // 정확한 예외클래스 사용을 권장함.
-			System.out.println("0으로 나누어서 예외발생 " + e.getMessage());  //   /by zero
+			System.out.println("0으로 나누어서 예외발생 " + e.getMessage()); // /by zero
 		} catch (RuntimeException e) {
-			System.out.println("객체 생성없이 메서드 호출해서 예외발생 " + e.getMessage());  // Cannot invoke "String.length()" because "s" is null
+			System.out.println("객체 생성없이 메서드 호출해서 예외발생 " + e.getMessage()); // Cannot invoke "String.length()" because
+																			// "s" is null
 		} catch (Exception e) {
 			System.out.println("포괄적인 예외처리용-예외발생 " + e.getMessage());
 		} finally {
@@ -28,12 +29,12 @@ public class ExceptionTest4 {
 		}
 
 		try {
-			int x =10;
+			int x = 10;
 			System.out.println(x);
-		}finally {
+		} finally {
 			System.out.println("catch 없이 finally가능. 반드시 실행되는 문장임");
 		}
-		
+
 		System.out.println("프로그램 정상종료");
 
 	}

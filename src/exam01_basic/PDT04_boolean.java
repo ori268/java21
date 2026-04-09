@@ -7,7 +7,7 @@ public class PDT04_boolean {
 
 		System.out.println(true);
 		System.out.println(false);
-		
+
 	}
 
 }

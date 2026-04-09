@@ -1,6 +1,6 @@
 package exam13_추상클래스;
 
-public class AbstractChildClass extends AbstractClass{
+public class AbstractChildClass extends AbstractClass {
 
 	@Override
 	public void b() {

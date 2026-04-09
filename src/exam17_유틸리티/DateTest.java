@@ -7,9 +7,8 @@ public class DateTest {
 	public static void main(String[] args) {
 
 		Date d = new Date();
-		System.out.println(d);  // Wed Apr 08 16:39:58 KST 2026
+		System.out.println(d); // Wed Apr 08 16:39:58 KST 2026
 
-		
 	}
 
 }

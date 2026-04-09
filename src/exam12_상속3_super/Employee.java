@@ -1,6 +1,6 @@
 package exam12_상속3_super;
 
-public class Employee {  // 자동으로 extends Object 가 지정됨.
+public class Employee { // 자동으로 extends Object 가 지정됨.
 
 	String name;
 	int salary;

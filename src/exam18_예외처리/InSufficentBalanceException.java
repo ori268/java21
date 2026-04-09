@@ -6,5 +6,4 @@ public class InSufficentBalanceException extends Exception {
 		super(message);
 	}
 
-	
 }

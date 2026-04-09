@@ -6,20 +6,19 @@ public class Operator06_3항연산자 {
 
 		// 3항 연산자
 		// 변수 = (조건식)?참:거짓;
-		
+
 		int num = 10;
-		
-		int result = (num > 2)?100:200;
+
+		int result = (num > 2) ? 100 : 200;
 		System.out.println(result);
-		
-		String result2 = (num > 20)?"홍길동":"이순신";
+
+		String result2 = (num > 20) ? "홍길동" : "이순신";
 		System.out.println(result2);
 
-		
-		//중첩 가능
-		int result3 = (num > 2)? (num<29)?10:20 :200;
+		// 중첩 가능
+		int result3 = (num > 2) ? (num < 29) ? 10 : 20 : 200;
 		System.out.println(result3);
-	
+
 	}
 
 }

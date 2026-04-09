@@ -2,22 +2,25 @@ package pack01;
 
 public class Vehicle {
 
-	private int maxWeight;
-	private double oilTankSize;
-	private double efficiency;
-
-	public Vehicle() {
-	}
+	private int maxWeight; // 최대 적재 중량
+	private double oilTankSize; // 주유 탱크 크기 (리터)
+	private double efficiency; // 연비
 
 	public Vehicle(int maxWeight, double oilTankSize, double efficiency) {
 		this.maxWeight = maxWeight;
 		this.oilTankSize = oilTankSize;
 		this.efficiency = efficiency;
 	}
-
-	@Override
+    @Override
 	public String toString() {
-		return "Vehicle [maxWeight=" + maxWeight + ", oilTankSize=" + oilTankSize + ", efficiency=" + efficiency + "]";
+		return maxWeight + "\t\t" + oilTankSize;
+	}
+	public double getEfficiency() {
+		return efficiency;
+	}
+
+	public void setEfficiency(double efficiency) {
+		this.efficiency = efficiency;
 	}
 
 	public int getMaxWeight() {
@@ -36,12 +39,5 @@ public class Vehicle {
 		this.oilTankSize = oilTankSize;
 	}
 
-	public double getEfficiency() {
-		return efficiency;
-	}
-
-	public void setEfficiency(double efficiency) {
-		this.efficiency = efficiency;
-	}
-
+	
 }

@@ -11,16 +11,24 @@ public class EnumTest {
 		Day day = Day.SUNDAY;
 
 		switch (day) {
-		case SUNDAY:System.out.println("일요일");break;
-		case MONDAY:System.out.println("월요일");break;
-		case SATURDAY:System.out.println("토요일");break;
+		case SUNDAY:
+			System.out.println("일요일");
+			break;
+		case MONDAY:
+			System.out.println("월요일");
+			break;
+		case SATURDAY:
+			System.out.println("토요일");
+			break;
 
-		default:System.out.println("default");break;
+		default:
+			System.out.println("default");
+			break;
 		}
-		
+
 		System.out.println("name : " + day.name());
 		System.out.println("ordinarl : " + day.ordinal());
-		Day [] days = day.values();
+		Day[] days = day.values();
 		System.out.println(Arrays.toString(days));
 	}
 

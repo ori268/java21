@@ -5,7 +5,7 @@ package exam12_상속6_다형성2_동적타이핑;
 public class Manager extends Employee {
 
 	String name;
-	
+
 	@Override
 	public void a() {
 		System.out.println("Manager a()");
@@ -14,6 +14,5 @@ public class Manager extends Employee {
 	public void b() {
 		System.out.println("Manager b()");
 	}
-	
 
 }

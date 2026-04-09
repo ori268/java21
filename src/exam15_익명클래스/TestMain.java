@@ -15,6 +15,7 @@ public class TestMain {
 			public void fly() {
 				System.out.println("Bird.fly()");
 			}
+
 			@Override
 			public void land() {
 				System.out.println("Bird.land()");

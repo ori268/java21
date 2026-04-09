@@ -7,9 +7,9 @@ public class TestEmployee3 {
 		// Manager 만 출력하시오
 
 		if (e instanceof Manager) {
-			Manager eng = (Manager)e;
+			Manager eng = (Manager) e;
 			eng.b();
-			//((Manager)e).b();
+			// ((Manager)e).b();
 		}
 
 	}

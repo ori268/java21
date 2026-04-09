@@ -16,7 +16,7 @@ public class ArrayTest03 {
 			}
 		}
 		System.out.println("total=" + total);
-		System.out.println("average=" + ((double)total/(double)count));
+		System.out.println("average=" + ((double) total / (double) count));
 
 	}
 

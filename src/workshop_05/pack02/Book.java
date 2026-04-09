@@ -14,12 +14,10 @@ public class Book {
 		this.bookPrice = bookPrice;
 		this.bookDiscountRate = bookDiscountRate;
 	}
-	
+
 	public double getDiscountBookPrice() {
-		return this.bookPrice
-				- (this.bookPrice * (this.bookDiscountRate / 100));
+		return this.bookPrice - (this.bookPrice * (this.bookDiscountRate / 100));
 	}
-	
 
 	public String getBookName() {
 		return bookName;

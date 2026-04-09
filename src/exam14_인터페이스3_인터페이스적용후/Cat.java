@@ -10,6 +10,7 @@ public class Cat extends Pet {
 	@Override
 	public void eat() {
 	}
+
 	@Override
 	public void sleep() {
 	}

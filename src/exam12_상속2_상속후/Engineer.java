@@ -7,7 +7,7 @@ public class Engineer extends Employee {
 	String skill; // 엔지니어의 기술
 
 	public Engineer() {
-	//	super(); 자동으로 부모의 기본 생성자를 호출함. 
+		// super(); 자동으로 부모의 기본 생성자를 호출함.
 	}
 
 	public Engineer(String name, int salary, String skill) {

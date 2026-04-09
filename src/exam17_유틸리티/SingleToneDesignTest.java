@@ -1,18 +1,20 @@
 package exam17_유틸리티;
 
-class Calendar{
-	
+class Calendar {
+
 	private static Calendar cal;
-	
-	private Calendar() {}
-	
+
+	private Calendar() {
+	}
+
 	public static Calendar getInstance() {
-		if(cal==null) cal = new Calendar();
+		if (cal == null)
+			cal = new Calendar();
 		return cal;
 	}
 }
 
-public class SingleToneDesignTest{
+public class SingleToneDesignTest {
 
 	public static void main(String[] args) {
 

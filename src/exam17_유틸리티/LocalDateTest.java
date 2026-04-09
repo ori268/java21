@@ -21,7 +21,7 @@ public class LocalDateTest {
 
 		// 미래로
 		LocalDate future = today.plusDays(3);
-		LocalDate future2= today.plusMonths(3);
+		LocalDate future2 = today.plusMonths(3);
 		LocalDate future3 = today.plusYears(3);
 		System.out.println(future);
 		System.out.println(future2);
@@ -30,21 +30,20 @@ public class LocalDateTest {
 		// 특정 날짜 설정
 		LocalDate myday = LocalDate.of(2036, 10, 10);
 		System.out.println(myday);
-		
+
 		// str --------> LocalDate
-		String str = "2026-12-24";  // "2026년12월24일", "2026/12/24"
-		
+		String str = "2026-12-24"; // "2026년12월24일", "2026/12/24"
+
 		LocalDate myday2 = LocalDate.parse(str);
 		System.out.println(myday2);
-		
+
 		String str2 = "2026년12월24일";
 		LocalDate myday3 = LocalDate.parse(str2, DateTimeFormatter.ofPattern("yyyy년MM월dd일"));
 		System.out.println(myday3);
-		
+
 		String str3 = "2026/12/24";
 		LocalDate myday4 = LocalDate.parse(str3, DateTimeFormatter.ofPattern("yyyy/MM/dd"));
 		System.out.println(myday4);
-	
-	
+
 	}
 }

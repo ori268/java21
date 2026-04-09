@@ -13,17 +13,10 @@ public class TestEmployee3 {
 //		Employee e3 = new Manager("유관순", 2000, "관리");
 //		Employee[] emp = { e, e2, e3 };
 
-		Employee[] emp = { new Employee("홍길동", 2000), 
-						   new Engineer("이순신", 4300, "자바"), 
-						   new Manager("유관순", 2000, "관리"), };
+		Employee[] emp = { new Employee("홍길동", 2000), new Engineer("이순신", 4300, "자바"),
+				new Manager("유관순", 2000, "관리"), };
 
-		Object [] obj = { new Employee("홍길동", 2000), 
-						  new Engineer("이순신", 4300, "자바"), 
-						  new Manager("유관순", 2000, "관리"), 
-						  "Hello",
-						  20,
-						  3.14,
-						  true
-						  };
+		Object[] obj = { new Employee("홍길동", 2000), new Engineer("이순신", 4300, "자바"), new Manager("유관순", 2000, "관리"),
+				"Hello", 20, 3.14, true };
 	}
 }

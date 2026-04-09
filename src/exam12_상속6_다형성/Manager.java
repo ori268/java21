@@ -20,7 +20,7 @@ public class Manager extends Employee {
 		super(name, salary);
 		this.depart = depart;
 	}
-	
+
 	// Employee의 toString 재정의
 	@Override
 	public String toString() {

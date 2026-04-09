@@ -2,19 +2,19 @@ package exam18_예외처리;
 
 class Test2 {
 
-	public void a() throws NullPointerException,ArithmeticException {
+	public void a() throws NullPointerException, ArithmeticException {
 		b();
 	}
 
-	public void b() throws NullPointerException,ArithmeticException {
+	public void b() throws NullPointerException, ArithmeticException {
 //		public void b() throws Exception {  // 다형성 가능 ( 권장안함 )
-	 	// NullPointerException 발생 가능
+		// NullPointerException 발생 가능
 		String s = null;
 		System.out.println(s.length());
-		
+
 		// ArithmeticException 발생 가능
-		int n=0;
-		int result = 10/n;
+		int n = 0;
+		int result = 10 / n;
 		System.out.println("결과 : " + result);
 
 	}
@@ -27,16 +27,16 @@ public class ExceptionTest6 {
 		System.out.println("프로그램 시작");
 
 		Test t = new Test();
-		
+
 		try {
 			t.a();
-		}catch(NullPointerException e) {
+		} catch (NullPointerException e) {
 			System.out.println(e.getMessage());
 //			e.printStackTrace();
-		}catch(ArithmeticException e) {
+		} catch (ArithmeticException e) {
 			System.out.println(e.getMessage());
 //			e.printStackTrace();
-		}catch(Exception e) {
+		} catch (Exception e) {
 			System.out.println(e.getMessage());
 //			e.printStackTrace();
 		}

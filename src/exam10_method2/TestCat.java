@@ -8,14 +8,14 @@ public class TestCat {
 		Cat c = new Cat("야옹이", 2, "암컷");
 
 		// c.name="망치"; // 접근 불가
-		
+
 		// 수정 역할
 		c.setName("망치");
 		c.setAge(3);
 		c.setGender("수컷");
-		
+
 		// c.age = 3; // 직접 접근 불가. 메서드를 이용해서 접근
-		
+
 		// 조회 역할
 		String name = c.getName();
 		int age = c.getAge();

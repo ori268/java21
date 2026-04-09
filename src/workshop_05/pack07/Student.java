@@ -17,7 +17,6 @@ public class Student {
 		this.weight = weight;
 	}
 
-	
 	public String getName() {
 		return name;
 	}
@@ -51,7 +50,7 @@ public class Student {
 	}
 
 	public String studentInfo() {
-		return "Student[name" + name + ", age" + age + ", height" + height + ", weight" + weight +"]";
+		return "Student[name" + name + ", age" + age + ", height" + height + ", weight" + weight + "]";
 	}
-	
+
 }

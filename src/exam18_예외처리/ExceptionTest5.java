@@ -20,10 +20,10 @@ public class ExceptionTest5 {
 		System.out.println("프로그램 시작");
 
 		Test t = new Test();
-		
+
 		try {
 			t.a();
-		}catch(NullPointerException e) {
+		} catch (NullPointerException e) {
 //			System.out.println(e.getMessage());
 			e.printStackTrace();
 		}

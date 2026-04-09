@@ -15,24 +15,30 @@ public class TestMain2 {
 
 			@Override
 			public void fly(int n) {
-				System.out.println("fly()"+n);
+				System.out.println("fly()" + n);
 			}
 		};
 		f.fly(10);
 
 		// 람다 표현식 ( => ( 자바스크립트 ), -> ( 자바 ) )
-		Flyer2 f2 = (int n) -> {System.out.println("람다.fly()"+n);};
+		Flyer2 f2 = (int n) -> {
+			System.out.println("람다.fly()" + n);
+		};
 		f2.fly(10);
-		
-		Flyer2 f3 = (n) -> {System.out.println("람다.fly()"+n);};
+
+		Flyer2 f3 = (n) -> {
+			System.out.println("람다.fly()" + n);
+		};
 		f3.fly(10);
-		
-		Flyer2 f4 = n -> {System.out.println("람다.fly()"+n);};
+
+		Flyer2 f4 = n -> {
+			System.out.println("람다.fly()" + n);
+		};
 		f4.fly(10);
-		
-		Flyer2 f5 = n -> System.out.println("람다.fly()"+n);
+
+		Flyer2 f5 = n -> System.out.println("람다.fly()" + n);
 		f5.fly(10);
-		
+
 	} // end main
 
 }

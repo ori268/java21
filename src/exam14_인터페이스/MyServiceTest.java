@@ -3,7 +3,7 @@ package exam14_인터페이스;
 public class MyServiceTest {
 
 	public static void main(String[] args) {
-		
+
 		// MyService s = new MyService(); // 객체 생성불가
 		MyServiceImpl s2 = new MyServiceImpl();
 		System.out.println(s2.NUM);

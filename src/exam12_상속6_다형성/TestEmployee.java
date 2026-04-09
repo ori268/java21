@@ -9,6 +9,6 @@ public class TestEmployee {
 		Engineer eng = new Engineer("유관순", 1800, "자바");
 
 		System.out.println(m);
-		System.out.println(eng); 
+		System.out.println(eng);
 	}
 }

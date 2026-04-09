@@ -6,8 +6,8 @@ public class Hello {
 		System.out.println("Hellow World");
 		System.out.println("Hellow World2");
 		System.out.println("안녕하세요");
-		System.out.println(1+2);
-		System.out.printf( "이름:%s, 성별:%c, 나이:%d, 키:%.2f", "홍길동", '남', 20, 184.3);
+		System.out.println(1 + 2);
+		System.out.printf("이름:%s, 성별:%c, 나이:%d, 키:%.2f", "홍길동", '남', 20, 184.3);
 
 	}
 

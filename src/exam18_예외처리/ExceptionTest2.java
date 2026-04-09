@@ -10,7 +10,7 @@ public class ExceptionTest2 {
 			int n = 0;
 			int result = 10 / n; // java.lang.ArithmenticException 예외 클래스 이용해서 예외처리 가능
 			System.out.println("결과 : " + result);
-		} catch (ArithmeticException e) {  // 정확한 예외클래스 사용을 권장함.
+		} catch (ArithmeticException e) { // 정확한 예외클래스 사용을 권장함.
 //		} catch (RuntimeException e) {
 //		} catch (Exception e) {
 			// 예외처리 코드

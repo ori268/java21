@@ -29,15 +29,15 @@ public class TestCat { // static 지정하면 객체 생성 없이 메서드 호
 
 		// call by value 실습
 		int num = 10;
-		System.out.println("변경 전:" + num);  // 10
+		System.out.println("변경 전:" + num); // 10
 		pdt(num);
-		System.out.println("변경 후:" + num);  // 10  -> 값 자체를 전달해서 그대로 10을 받음
+		System.out.println("변경 후:" + num); // 10 -> 값 자체를 전달해서 그대로 10을 받음
 
 		// call by value reference 실습
 		Cat c = new Cat("야옹이", 2);
-		System.out.println("변경 전 나이:" + c.age); // 2 
+		System.out.println("변경 전 나이:" + c.age); // 2
 		rdt(c);
-		System.out.println("변경 전: 나이" + c.age);  // 20   -> 주소값을 전달해서 값이 변경됨.
+		System.out.println("변경 전: 나이" + c.age); // 20 -> 주소값을 전달해서 값이 변경됨.
 
 	}
 

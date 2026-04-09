@@ -3,7 +3,8 @@ package exam11_static;
 class Count {
 
 	int num;
-	static int count;  // static 변수
+	static int count; // static 변수
+
 	public Count() {
 		num++;
 		count++;

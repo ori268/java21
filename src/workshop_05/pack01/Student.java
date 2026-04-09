@@ -28,15 +28,15 @@ public class Student {
 
 	public String getGrade() {
 		String result = "F 학점";
-		int avg = (int)getAvg();
-		
-		if(avg >= 90) {
+		int avg = (int) getAvg();
+
+		if (avg >= 90) {
 			result = "A 학점";
-		} else if(avg >= 70) {
+		} else if (avg >= 70) {
 			result = "B 학점";
-		} else if(avg >= 50) {
+		} else if (avg >= 50) {
 			result = "C 학점";
-		} else if(avg >= 30) {
+		} else if (avg >= 30) {
 			result = "D 학점";
 		}
 		return result;

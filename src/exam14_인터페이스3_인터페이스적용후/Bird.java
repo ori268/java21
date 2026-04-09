@@ -12,9 +12,12 @@ public class Bird extends Pet {
 	@Override
 	public void eat() {
 	}
+
 	@Override
 	public void sleep() {
 	}
+
 	//
-	public void batFly() {}
+	public void batFly() {
+	}
 }
