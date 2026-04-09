@@ -6,13 +6,13 @@ class Account{
 	int balance=100;  // 잔고
 	
 	// 출금
-	public void withdraw(int amt) {
+	public void withdraw(int amt) throws InSufficentBalanceException {
 		if(balance >= amt) {
 			balance -= amt;
 		} else {
 			// 잔액부족인 경우 시스템은 예외라고 인식 안함.
 			// 하지만 개발자는 예외라고 가정할 수 있기 때문에 명시적 예외발생 필요.
-			throw new ArithmeticException("잔액부족으로 예외발생");
+			throw new InSufficentBalanceException("잔액부족으로 예외발생");
 			
 		}
 	}
@@ -29,7 +29,7 @@ public class ExceptionTest7 {
 		try {
 			acct.withdraw(50);
 			acct.withdraw(500);
-			}catch(ArithmeticException e) {
+			}catch(InSufficentBalanceException e) {
 				System.out.println(e.getMessage());  // "잔액부족으로 예외발생"
 			}
 
