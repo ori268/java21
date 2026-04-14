@@ -10,11 +10,13 @@ public class Ltab extends Mobile {
 	}
 
 	public int operate(int time) { // 사용
-		return super.getBatterySize()-(time*10);
+		setBatterySize(getBatterySize()-(time*10));
+		return getBatterySize();
 	}
 
 	public int charge(int time) { // 충전
-		return getBatterySize()+(time*10);
+		setBatterySize(getBatterySize()+(time*10));
+		return getBatterySize();
 	}
 	
 }

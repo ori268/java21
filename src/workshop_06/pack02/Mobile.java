@@ -6,21 +6,17 @@ public abstract class Mobile {
 	private int batterySize;
 	private String osType;
 
+	public abstract int operate(int time);
+	public abstract int charge(int time);
+
 	public Mobile() {
+		super();
 	}
 
 	public Mobile(String mobileName, int batterySize, String osType) {
 		this.mobileName = mobileName;
 		this.batterySize = batterySize;
 		this.osType = osType;
-	}
-
-	public int operate(int time) { // 사용
-		return batterySize-time;
-	}
-
-	public int charge(int time) { // 충전
-		return batterySize+time;
 	}
 
 	public String getMobileName() {

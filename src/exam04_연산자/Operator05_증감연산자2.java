@@ -13,6 +13,7 @@ public class Operator05_증감연산자2 {
 		int n2 = 10;
 		int result2 = n2++; // 먼저 할당하고 나중에 증가
 		System.out.println(result2 + "\t" + n2);
+
 	}
 
 }

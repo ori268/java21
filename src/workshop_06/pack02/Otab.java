@@ -10,10 +10,12 @@ public class Otab extends Mobile {
 	}
 
 	public int operate(int time) { // 사용
-		return getBatterySize()-(time*12);
+		setBatterySize(getBatterySize()-(time*12));
+		return getBatterySize();
 	}
 
 	public int charge(int time) { // 충전
-		return getBatterySize()+(time*12);
+		setBatterySize(getBatterySize()+(time*8));
+		return getBatterySize();
 	}
 }
